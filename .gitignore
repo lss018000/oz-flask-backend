@@ -1,0 +1,7 @@
+# 숨김파일
+.DS_Store
+
+
+# 폴더
+__pycache__/
+.venv/
