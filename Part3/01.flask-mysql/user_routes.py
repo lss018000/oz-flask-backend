@@ -23,7 +23,7 @@ def create_user_blueprint(mysql):
 
         return jsonify(users_list)
 
-    
+    # 1
     @user_blp.route('/', methods=['POST'])
     def add_user():
         user_data = request.json
